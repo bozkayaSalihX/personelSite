@@ -1,0 +1,199 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.head {
+  position: relative;
+  padding-top: 5%;
+  /* background-color: #eaf6f6; */
+  height: 85vh;
+  margin-top: 0;
+}
+
+.top {
+  position: absolute;
+  top: 0%;
+  right: 30%;
+}
+
+.middle {
+  position: absolute;
+}
+
+.end {
+  margin-bottom: 0;
+}
+
+.head h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #66bfbf;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 10px;
+}
+
+.head p {
+  font-size: 2em;
+  color: #66bfbf;
+  text-align: center;
+}
+
+.head span {
+  text-decoration: underline solid rgb(255, 238, 0);
+}
+
+.main1 {
+  margin-top: 10%;
+  width: 40%;
+  margin: 10% auto 0;
+}
+
+.main1 h2 {
+  color: #66bfbf;
+  text-transform: uppercase;
+  font-family: 'SF Pro Display Medium';
+  font-size: 2em;
+}
+
+.main1 p {
+  font-family: 'SF Pro Display Medium';
+  font-size: 1em;
+  color: #40514b;
+}
+.center {
+  text-transform: capitalize;
+  margin-top: 10%;
+  color: #66bfbf;
+  font-family: 'SF Pro Display Medium';
+  font-size: 2em;
+  letter-spacing: 3px;
+  display: inline-block;
+  padding-left: 4%;
+}
+
+.main2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.main2A img {
+  width: 128px;
+  height: 128px;
+  float: left;
+  margin-right: 20px;
+}
+.main2A {
+  margin-bottom: 15%;
+}
+
+.main2A p,
+h3 {
+  text-align: left;
+}
+.main2A h3 {
+  color: #66bfbf;
+  font-family: 'SF Pro Display Medium';
+}
+.main2A p {
+  font-family: 'SF Pro Display Medium';
+  color: #40514b;
+}
+
+.main2B img {
+  width: 128px;
+  height: 128px;
+  float: right;
+  margin-left: 20px;
+}
+
+.main2B h3,
+p {
+  text-align: left;
+}
+
+.main2B h3 {
+  color: #66bfbf;
+  font-family: 'SF Pro Display Medium';
+}
+
+.main2B p {
+  font-family: 'SF Pro Display Medium';
+  color: #40514b;
+}
+
+.main2B .dots {
+  color: #66bfbf;
+  text-transform: uppercase;
+  font-family: 'SF Pro Display Medium';
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.foot {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+.foot .if {
+  text-align: center;
+  font-family: 'SF Pro Display Medium';
+  font-size: 20px;
+}
+
+.myButton {
+  background-color: transparent;
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+  border-radius: 32px;
+  border: 3px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 11px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 20px;
+}
+.myButton:hover {
+  background-color: transparent;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.foot h2 {
+  font-family: 'SF Pro Display Medium';
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.foot .lorem {
+  font-family: 'SF Pro Display Medium';
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10%;
+  background-color: #66bfbf;
+  padding: 5% 0 5%;
+}
+.nav p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'SF Pro Display Medium';
+}
+.nav a {
+  padding: 40px;
+  font-family: 'SF Pro Display Medium';
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
